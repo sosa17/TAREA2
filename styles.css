@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+body {
+    background: url('imagen/fondo.jpg') no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
+body h1,h3,h4,p, input, button{
+align-content: center;
+color: cyan;
+border-radius: 40px;
+}
+.MiCalculadora{
+    color: black;
+    background-color:cyan;
+    border-radius: 35px;
+    ;
+}
+ .button1{
+    color:black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease
+  }
+  .button1:hover {
+    color: white;
+    background:purple;
+}
+.button2{
+    color:black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease
+  }
+  .button2:hover {
+    color:white;
+    background:blue;
+}
+.button3{
+    color:black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease
+  }
+  .button3:hover {
+    color: white;
+    background: red;
+}
+.button4{
+    color:black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease
+  }
+  .button4:hover {
+    color: white;
+    background:green ;
+}
+h4{
+    padding: unset;
+    border-radius: initial;
+    color: black;
+} 
+h4 {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#sumando1 {
+    background-image: linear-gradient(purple,blue);
+    color: white;
+}
+#sumando2 {
+    background-image: linear-gradient(purple,blue);
+    color: white;
+}       
+#restar1{
+    background-image: linear-gradient(purple,blue);
+    color: white;
+}       
+#restar2{
+    background-image: linear-gradient(purple,blue);
+    color: white;
+}       
+#multiplicar1{
+    background-image: linear-gradient(red,green);
+     color: white;
+}     
+#multiplicar2{
+    background-image: linear-gradient(red,green);
+    color: white;
+}   
+#dividir1{
+    background-image: linear-gradient(red,green);
+    color: white;
+}   
+#dividir2{
+    background-image: linear-gradient(red,green);
+    color: white;
+}     
+body{
+    text-align: center;
+    border-radius:35px;
+    font-size: 35px;
+    font-weight: 500;
+    border: 50px  blueviolet double;
+    padding: 50px;
+border-block-end: 50px ;
+border-radius: 50px;
+margin: 50px;
+margin-top: 50px;
+}

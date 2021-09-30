@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lnag="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> javaScript</title>
+</head>
+
+<body>
+    <h1>Mi calculadora</h1>
+    <h3>Suma</h3>
+    <input id="sumando1" type="number">
+    <input id="sumando2" type="number">
+    <button onClick="sumar()">Sumar</button>
+    <h4>Resultado:</h4>
+    <p id="resultadoSuma"></p>
+    <h3>Resta</h3>
+    <h3>Multiplicación</h3>
+    <h3>División</h3>
+    <script>
+        function sumar() {
+            var sumando1 = document.getElementById("sumando1").value;
+            var sumando2 = document.getElementById("sumando2").value;
+            var suma = parseInt(sumando1) + parseInt(sumando2);
+            document.getElementById("resultadoSuma").innerHTML = suma;
+        }
+    </script>
+</body>
+
+
+
+</html>

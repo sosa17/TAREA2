@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi calculadora</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="MiCalculadora">Mi calculadora</h1>
+    <h3>SUMA</h3>
+    <input id="sumando1" type=number>
+    <input id="sumando2" type=number>
+    <button class="button1" onClick="sumar()">Sumar</button>
+    <h4>Resultado:</h4>
+    <p id="resultadoSuma"></p>
+    <h3>RESTA</h3>
+    <input id="restar1" type=number>
+    <input id="restar2" type=number>
+    <button class="button2" onClick="restar()">restar</button>
+    <h4>Resultado:</h4>
+    <p id="resultadoResta"></p>
+    <h3>MULTIPLICACIÓN</h3>
+    <input id="multiplicar1" type=number>
+    <input id="multiplicar2" type=number>
+    <button class="button3" onClick="Multiplicar()">Multiplicar</button>
+    <h4>Resultado:</h4>
+    <p id="resultadoMulplicacion"></p>
+    <h3>DIVISIÓN</h3>
+    <input id="dividir1" type=number>
+    <input id="dividir2" type=number>
+    <button class="button4" onClick="Dividir()">Dividir</button>
+    <h4>Resultado:</h4>
+    <p id="resultadoDivisión"></p>
+    <script>
+        function sumar() {
+            var sumando1 = document.getElementById("sumando1").value;
+            var sumando2 = document.getElementById("sumando2").value;
+            var suma = parseInt(sumando1) + parseInt(sumando2);
+            document.getElementById("resultadoSuma").innerHTML = suma;
+        }
+
+
+
+        function restar() {
+            var restar1 = document.getElementById("restar1").value;
+            var restar2 = document.getElementById("restar2").value;
+            var resta = parseInt(restar1) - parseInt(restar2);
+            document.getElementById("resultadoResta").innerHTML = resta;
+        }
+
+
+
+        function Multiplicar() {
+            var multiplicar1 = document.getElementById("multiplicar1").value;
+            var multiplicar2 = document.getElementById("multiplicar2").value;
+            var multiplicacion = parseInt(multiplicar1) * parseInt(multiplicar2);
+            document.getElementById("resultadoMulplicacion").innerHTML = multiplicacion;
+        }
+
+
+
+        function Dividir() {
+            var dividir1 = document.getElementById("dividir1").value;
+            var dividir2 = document.getElementById("dividir2").value;
+            var Divicion = parseInt(dividir1) / parseInt(dividir2);
+            document.getElementById("resultadoDivisión").innerHTML = Divicion;
+        }
+    </script>
+
+
+</body>
+
+</html>
